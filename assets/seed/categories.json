@@ -1,0 +1,189 @@
+[
+  {
+    "id": "cat_food",
+    "name_en": "Food & Dining",
+    "name_bn": "খাবার",
+    "kind": "expense",
+    "icon": "restaurant",
+    "color": "#F97316",
+    "subcategories": [
+      {"id": "sub_food_breakfast", "name_en": "Breakfast", "name_bn": "সকালের নাস্তা"},
+      {"id": "sub_food_lunch", "name_en": "Lunch", "name_bn": "দুপুরের খাবার"},
+      {"id": "sub_food_dinner", "name_en": "Dinner", "name_bn": "রাতের খাবার"},
+      {"id": "sub_food_groceries", "name_en": "Groceries", "name_bn": "বাজার ও মুদি"},
+      {"id": "sub_food_tea", "name_en": "Snacks & Tea", "name_bn": "চা ও নাস্তা"},
+      {"id": "sub_food_restaurant", "name_en": "Restaurants", "name_bn": "রেস্তোরাঁ"},
+      {"id": "sub_food_delivery", "name_en": "Delivery", "name_bn": "ফুড ডেলিভারি"}
+    ]
+  },
+  {
+    "id": "cat_transport",
+    "name_en": "Transport",
+    "name_bn": "যাতায়াত",
+    "kind": "expense",
+    "icon": "directions_car",
+    "color": "#3B82F6",
+    "subcategories": [
+      {"id": "sub_trans_rickshaw", "name_en": "Rickshaw", "name_bn": "রিকশা"},
+      {"id": "sub_trans_cng", "name_en": "CNG / Auto", "name_bn": "সিএনজি / অটো"},
+      {"id": "sub_trans_bus", "name_en": "Bus", "name_bn": "বাস"},
+      {"id": "sub_trans_rideshare", "name_en": "Ride-share", "name_bn": "রাইড শেয়ার"},
+      {"id": "sub_trans_fuel", "name_en": "Fuel", "name_bn": "জ্বালানি"},
+      {"id": "sub_trans_train", "name_en": "Train / Launch", "name_bn": "ট্রেন / লঞ্চ"}
+    ]
+  },
+  {
+    "id": "cat_housing",
+    "name_en": "Housing",
+    "name_bn": "বাসা",
+    "kind": "expense",
+    "icon": "home",
+    "color": "#6366F1",
+    "subcategories": [
+      {"id": "sub_house_rent", "name_en": "Rent", "name_bn": "বাসা ভাড়া"},
+      {"id": "sub_house_electricity", "name_en": "Electricity", "name_bn": "বিদ্যুৎ বিল"},
+      {"id": "sub_house_gas", "name_en": "Gas", "name_bn": "গ্যাস বিল"},
+      {"id": "sub_house_water", "name_en": "Water", "name_bn": "পানি বিল"},
+      {"id": "sub_house_internet", "name_en": "Internet", "name_bn": "ইন্টারনেট"}
+    ]
+  },
+  {
+    "id": "cat_mobile",
+    "name_en": "Mobile & Internet",
+    "name_bn": "মোবাইল ও রিচার্জ",
+    "kind": "expense",
+    "icon": "phone_android",
+    "color": "#06B6D4",
+    "subcategories": [
+      {"id": "sub_mob_recharge", "name_en": "Mobile Recharge", "name_bn": "মোবাইল রিচার্জ"},
+      {"id": "sub_mob_data", "name_en": "Data Pack", "name_bn": "ডাটা প্যাক"}
+    ]
+  },
+  {
+    "id": "cat_shopping",
+    "name_en": "Shopping",
+    "name_bn": "কেনাকাটা",
+    "kind": "expense",
+    "icon": "shopping_bag",
+    "color": "#EC4899",
+    "subcategories": [
+      {"id": "sub_shop_electronics", "name_en": "Electronics", "name_bn": "ইলেকট্রনিক্স"},
+      {"id": "sub_shop_clothing", "name_en": "Clothing", "name_bn": "পোশাক"},
+      {"id": "sub_shop_home", "name_en": "Home Items", "name_bn": "গৃহস্থালি"},
+      {"id": "sub_shop_cosmetics", "name_en": "Cosmetics", "name_bn": "প্রসাধনী"}
+    ]
+  },
+  {
+    "id": "cat_health",
+    "name_en": "Health",
+    "name_bn": "স্বাস্থ্য",
+    "kind": "expense",
+    "icon": "local_hospital",
+    "color": "#EF4444",
+    "subcategories": [
+      {"id": "sub_health_medicine", "name_en": "Medicine", "name_bn": "ওষুধ"},
+      {"id": "sub_health_doctor", "name_en": "Doctor", "name_bn": "ডাক্তার ফি"},
+      {"id": "sub_health_test", "name_en": "Tests", "name_bn": "ডায়াগনস্টিক টেস্ট"}
+    ]
+  },
+  {
+    "id": "cat_education",
+    "name_en": "Education",
+    "name_bn": "শিক্ষা",
+    "kind": "expense",
+    "icon": "school",
+    "color": "#10B981",
+    "subcategories": [
+      {"id": "sub_edu_tuition", "name_en": "Tuition", "name_bn": "বেতন ও টিউশন"},
+      {"id": "sub_edu_books", "name_en": "Books", "name_bn": "বই-খাতা"},
+      {"id": "sub_edu_course", "name_en": "Courses", "name_bn": "কোর্স"}
+    ]
+  },
+  {
+    "id": "cat_family",
+    "name_en": "Family & Social",
+    "name_bn": "পারিবারিক ও সামাজিক",
+    "kind": "expense",
+    "icon": "people",
+    "color": "#8B5CF6",
+    "subcategories": [
+      {"id": "sub_fam_gift", "name_en": "Gifts", "name_bn": "উপহার"},
+      {"id": "sub_fam_zakat", "name_en": "Donations / Zakat", "name_bn": "দান ও সদকা"},
+      {"id": "sub_fam_event", "name_en": "Events", "name_bn": "অনুষ্ঠান"}
+    ]
+  },
+  {
+    "id": "cat_entertainment",
+    "name_en": "Entertainment",
+    "name_bn": "বিনোদন",
+    "kind": "expense",
+    "icon": "movie",
+    "color": "#F59E0B",
+    "subcategories": [
+      {"id": "sub_ent_movie", "name_en": "Movies", "name_bn": "সিনেমা"},
+      {"id": "sub_ent_sub", "name_en": "Subscriptions", "name_bn": "সাবস্ক্রিপশন"},
+      {"id": "sub_ent_travel", "name_en": "Travel", "name_bn": "ভ্রমণ"}
+    ]
+  },
+  {
+    "id": "cat_bills",
+    "name_en": "Bills & Fees",
+    "name_bn": "বিল ও ফি",
+    "kind": "expense",
+    "icon": "receipt_long",
+    "color": "#64748B",
+    "subcategories": [
+      {"id": "sub_bill_bank", "name_en": "Bank Charges", "name_bn": "ব্যাংক চার্জ"},
+      {"id": "sub_bill_mfs", "name_en": "MFS Fee", "name_bn": "ক্যাশআউট চার্জ"}
+    ]
+  },
+  {
+    "id": "cat_personal",
+    "name_en": "Personal Care",
+    "name_bn": "ব্যক্তিগত যত্ন",
+    "kind": "expense",
+    "icon": "content_cut",
+    "color": "#14B8A6",
+    "subcategories": [
+      {"id": "sub_per_salon", "name_en": "Salon", "name_bn": "সেলুন ও পার্লার"},
+      {"id": "sub_per_gym", "name_en": "Gym", "name_bn": "জিম"}
+    ]
+  },
+  {
+    "id": "cat_debt",
+    "name_en": "Debt & Loans",
+    "name_bn": "ধার ও ঋণ",
+    "kind": "both",
+    "icon": "handshake",
+    "color": "#A855F7",
+    "subcategories": [
+      {"id": "sub_debt_given", "name_en": "Loan Given", "name_bn": "ধার দেওয়া"},
+      {"id": "sub_debt_received", "name_en": "Loan Received", "name_bn": "ধার গ্রহণ"},
+      {"id": "sub_debt_repay", "name_en": "Repayment", "name_bn": "ধার পরিশোধ"}
+    ]
+  },
+  {
+    "id": "cat_income",
+    "name_en": "Income",
+    "name_bn": "আয়",
+    "kind": "income",
+    "icon": "account_balance_wallet",
+    "color": "#10B981",
+    "subcategories": [
+      {"id": "sub_inc_salary", "name_en": "Salary", "name_bn": "বেতন"},
+      {"id": "sub_inc_business", "name_en": "Business", "name_bn": "ব্যবসা"},
+      {"id": "sub_inc_freelance", "name_en": "Freelance", "name_bn": "ফ্রিল্যান্সিং"},
+      {"id": "sub_inc_gift", "name_en": "Gift Received", "name_bn": "উপহার প্রাপ্তি"},
+      {"id": "sub_inc_other", "name_en": "Other Income", "name_bn": "অন্যান্য আয়"}
+    ]
+  },
+  {
+    "id": "cat_uncategorized",
+    "name_en": "Uncategorized",
+    "name_bn": "বিবিধ",
+    "kind": "both",
+    "icon": "help_outline",
+    "color": "#94A3B8",
+    "subcategories": []
+  }
+]
